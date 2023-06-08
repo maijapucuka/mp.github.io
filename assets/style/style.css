@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(60, 130, 139);
+  font-family: "Georgia";
+}
+body a {
+  text-decoration: none;
+}
+
+.body {
+  background-color: aliceblue;
+  opacity: 80%;
+  padding: 10px;
+  position: absolute;
+  width: 580px;
+  height: 980px;
+  left: 100px;
+  top: 100px;
+}
+
+.nav-wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  align-items: center;
+}
+.nav-wrap .buttons {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
+
+.form p {
+  font-weight: bold;
+}
+
+.item-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  height: 100%;
+  color: rgb(23, 31, 20);
+  border: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.item-wrap .item {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 100%;
+  padding: 50px;
+  border: 0px;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+}
+
+.btn {
+  background-color: rgb(115, 166, 182);
+  color: rgb(44, 60, 61);
+  border: 2px solid rgb(115, 166, 182);
+  padding: 10px;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+.btn:hover {
+  background-color: rgb(44, 60, 61);
+  color: rgb(115, 166, 182);
+}
+
+input, select, p {
+  margin: 5px;
+}
+
+.delete-checkbox {
+  justify-self: first baseline;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
